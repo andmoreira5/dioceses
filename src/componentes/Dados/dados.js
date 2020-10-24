@@ -142,8 +142,77 @@ module.exports.crato = [
                 funcao:'Comunicação Social'
             },
             {
+                nome:'Viviane Tomaz',
+                funcao:'Crianças e Adolescentes'
+            },
+            {
+                nome:'Cícero Lima',
+                funcao:'Cura e Libertação'
+            },
+            {
+                nome:'Rômulo e Lalômia',
+                funcao:'Família'
+            },
+            {
+                nome:'Poliana Vieira',
+                funcao:'Formação'
+            },
+            {
+                nome:'Edneuma Maria',
+                funcao:'Intercessão'
+            },
+            {
+                nome:'Marcos Torres',
+                funcao:'Jovem'
+            },
+            {
                 nome:'Aldenor Barbosa',
                 funcao:'Música e Artes'
+            },
+            {
+                nome:'Cícero Antônio',
+                funcao:'Pregação'
+            },
+            {
+                nome:'Gislayne Vieira',
+                funcao:'Promoção Humana'
+            },
+            {
+                nome:'Fernanda Araújo',
+                funcao:'Universidades Renovadas'
+            }
+        ]
+    },
+    {
+        titulo:'Coordenadores de Comissões',
+        content:[
+            {
+                nome:'Helmer Belém',
+                funcao:'Construção'
+            },
+            {
+                nome:'Ozana Passos',
+                funcao:'Construção'
+            },
+            {
+                nome:'Dário Vieira',
+                funcao:'Eventos'
+            },
+            {
+                nome:'A discernir',
+                funcao:'Financeira'
+            },
+            {
+                nome:'Mana Janoca',
+                funcao:'Liturgia'
+            },
+            {
+                nome:'Eduardo Sá',
+                funcao:'Livraria'
+            },
+            {
+                nome:'Vileci Santana',
+                funcao:'Missionária'
             }
         ]
     }
