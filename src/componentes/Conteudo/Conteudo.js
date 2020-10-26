@@ -21,7 +21,7 @@ export default function Conteudo(props){
 
 
     return(
-        <section>
+        <section className="teal lighten-5 ">
             <Cabecalho id={props.id} />
             {dados.crato.map(el => lerDados(el))}
         </section>

@@ -1,0 +1,10 @@
+#detalhes-card{
+    padding:5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#nome{
+    font-weight: bold;
+    text-transform: uppercase;
+}
