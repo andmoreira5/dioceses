@@ -9,7 +9,7 @@ const Rotas = () => (
         <Switch>
             <Route exact path='/' component={ Home } />
             <Route path='/crato' render={props => <Conteudo {...props} id="Crato" />} />
-            <Route path='/iguatu' render={props => <Conteudo {...props} id="Iguatu" />} />
+            <Route path='/limoeirodonorte' render={props => <Conteudo {...props} id="Limoeiro-do-Norte" />} />
         </Switch>
     </BrowserRouter>
 );

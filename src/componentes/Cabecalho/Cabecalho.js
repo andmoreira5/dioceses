@@ -4,7 +4,7 @@ export default function Cabecalho(props){
 
     return(
         <header>
-            <h1 className="center">Bem vindo(a) à Diocese de {props.id}</h1>
+            <h1 className="center">Bem vindo(a) à Diocese de {props.id.replaceAll('-', ' ')}</h1>
         </header>
     );
 }

@@ -1,4 +1,4 @@
-module.exports.crato = [
+module.exports.data = [
     {
         titulo:'Presidência Diocesana',
         content:[
@@ -24,8 +24,12 @@ module.exports.crato = [
             },
             {
                 nome:'Poliana Vieira',
-                funcao:'2ª Tesoureira   '
+                funcao:'2ª Tesoureira'
             },
+            {
+                nome:'Pe. Monteiro',
+                funcao:'Diretor Espiritual '
+            }
         ]
     },
     {

@@ -2,9 +2,11 @@ import React from 'react';
 import Cabecalho from '../Cabecalho/Cabecalho';
 import Card from '../Card/Card';
 
-const dados = require('../Dados/dados');
+
 
 export default function Conteudo(props){
+
+    const dados = require('../Dados/' + props.id);
 
     function ler(el){
         return <div>
@@ -23,7 +25,7 @@ export default function Conteudo(props){
     return(
         <section className="teal lighten-5 ">
             <Cabecalho id={props.id} />
-            {dados.crato.map(el => lerDados(el))}
+            {dados.data.map(el => lerDados(el))}
         </section>
     );
 }
