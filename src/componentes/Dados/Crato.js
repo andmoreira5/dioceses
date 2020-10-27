@@ -117,6 +117,10 @@ module.exports.data = [
                 funcao:'Mauriti'
             },
             {
+                nome:'Sonayra Tavares',
+                funcao:'Milagres'
+            },
+            {
                 nome:'Marilene Patrício',
                 funcao:'Missão Velha'
             },
