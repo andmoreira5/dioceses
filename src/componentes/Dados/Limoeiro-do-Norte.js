@@ -63,6 +63,67 @@ module.exports.data = [
                 nome:'Francisca Maria',
                 funcao:'Morada Nova'
             },
+            {
+                nome:'Carla Pascoal',
+                funcao:'Palhano'
+            },
+            {
+                nome:'Daniel Fonseca',
+                funcao:'Quixeré'
+            },
+            {
+                nome:'Maria Haida',
+                funcao:'Roldão'
+            },
+            {
+                nome:'Maria do Socorro',
+                funcao:'Russas'
+            },
+            {
+                nome:'Edna Avelino',
+                funcao:'Tabuleiro'
+            },
+        ]
+    },
+    {
+        titulo:'Coordenadores de Ministério',
+        content:[
+            {
+                nome:'Brito Reis',
+                funcao:'Comunicação Social'
+            },
+            {
+                nome:'Antônia Vânia',
+                funcao:'Crianças e Adolescentes'
+            },
+            {
+                nome:'André Luis',
+                funcao:'Fé e Política'
+            },
+            {
+                nome:'Edilene Ribeiro',
+                funcao:'Formação'
+            },
+            {
+                nome:'Maria Lenira',
+                funcao:'Intercessão'
+            },
+            {
+                nome:'Ana Vitória',
+                funcao:'Jovem'
+            },
+            {
+                nome:'Maria Danielle',
+                funcao:'Música e Artes'
+            },
+            {
+                nome:'Eclézia Maria',
+                funcao:'Pregação'
+            },
+            {
+                nome:'Bárbara Bessa',
+                funcao:'Promoção Humana'
+            }
         ]
     }
 ]
