@@ -12,6 +12,7 @@ const Rotas = () => (
             <Route path='/limoeirodonorte' render={props => <Conteudo {...props} id="Limoeiro-do-Norte" />} />
             <Route path='/tiangua' render={props => <Conteudo {...props} id="Tianguá" />} />
             <Route path='/conselho-estadual' render={props => <Conteudo {...props} id="Estadual" />} />
+            <Route path='/itapipoca' render={props => <Conteudo {...props} id="Itapipoca" />} />
         </Switch>
     </BrowserRouter>
 );

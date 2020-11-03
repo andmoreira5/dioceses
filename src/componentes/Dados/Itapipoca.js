@@ -2,6 +2,11 @@ module.exports.data = [
     {
         titulo:'Presidência Diocesana',
         content:[
+            
+            {
+                nome:'José de Moura',
+                funcao:'Presidente Diocesano'
+            },
             {
                 nome:'Mírian Costta',
                 funcao:'Secretária'
@@ -16,57 +21,51 @@ module.exports.data = [
                 funcao:'Barroquinha'
             },
             {
-                nome:'Lucas Neves',
-                funcao:'Bitupitá'
+                nome:'Brena Rodrigues',
+                funcao:'Irauçuba'
             },
             {
-                nome:'Raimundinha',
-                funcao:'Camocim'
+                nome:'José Marcelo',
+                funcao:'Itapajé'
             },
             {
-                nome:'Kelyane Ribeiro',
-                funcao:'Carnaubal'
+                nome:'Jurandir Santos',
+                funcao:'Itarema'
             },
             {
-                nome:'Ioneida Carvalho',
-                funcao:'Chaval'
+                nome:'Miriam Mendes',
+                funcao:'Miraima'
             },
             {
-                nome:'Ana Maria',
-                funcao:'Croatá'
+                nome:'Gean Alves',
+                funcao:'Paracuru'
             },
             {
-                nome:'Luziemeire',
-                funcao:'Graça'
+                nome:'Mire Sousa',
+                funcao:'Trairi'
             },
             {
-                nome:'Maria das Graças',
-                funcao:'Granja'
+                nome:'Cícera Santos',
+                funcao:'Umirim'
             },
             {
-                nome:'Paula Jordana',
-                funcao:'Guaraciaba do Norte'
+                nome:'Francisca Roseny',
+                funcao:'Uruburetama'
+            }
+        ]
+    },
+    {
+        titulo:'Coordenadores de Ministério',
+        content:[
+            
+            {
+                nome:'Júlia Maria',
+                funcao:'Comunicação Social'
             },
             {
-                nome:'Carlos Evaldo',
-                funcao:'Ibiapina'
-            },
-            {
-                nome:'Maria Irlania',
-                funcao:'São Benedito'
-            },
-            {
-                nome:'José Raimundo',
-                funcao:'Tianguá'
-            },
-            {
-                nome:'Maria Aparecida',
-                funcao:'Ubajara'
-            },
-            {
-                nome:'Rosilane Conrado',
-                funcao:'Viçosa do Ceará'
-            },
+                nome:'Daniel Manuel',
+                funcao:'Jovem'
+            }
         ]
     }
 ]
