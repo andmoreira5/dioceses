@@ -1,4 +1,5 @@
 import React from 'react';
+import BotaoVoltar from '../BotaoVoltar/BotaoVoltar';
 import Cabecalho from '../Cabecalho/Cabecalho';
 import Card from '../Card/Card';
 
@@ -26,6 +27,7 @@ export default function Conteudo(props){
         <section className="teal lighten-5 ">
             <Cabecalho id={props.id} />
             {dados.data.map(el => lerDados(el))}
+            <BotaoVoltar />
         </section>
     );
 }
