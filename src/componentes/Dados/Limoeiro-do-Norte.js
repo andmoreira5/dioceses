@@ -127,3 +127,8 @@ module.exports.data = [
         ]
     }
 ]
+
+
+
+
+module.exports.apresentacao='A diocese localiza-se no Vale do Jaguaribe, no nordeste do estado do Ceará, Brasil.';

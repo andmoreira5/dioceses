@@ -70,3 +70,7 @@ module.exports.data = [
         ]
     }
 ]
+
+
+
+module.exports.apresentacao='Economicamente, é uma região primária com atividades de agricultura, pesca e extrativismo. ';

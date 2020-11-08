@@ -1,4 +1,5 @@
 import React from 'react';
+import Menu from '../Conteudo/Menu';
 
 export default function Cabecalho(props){
 
@@ -17,8 +18,9 @@ export default function Cabecalho(props){
     }
 
     return(
-        <header>
-            <h1 className="center">Bem vindo(a) {gerarTitulo()}</h1>
+        <header className="header section white">
+            <h2 className="center">Bem vindo(a) {gerarTitulo()}</h2>
+            <Menu id={props.id}/>
         </header>
     );
 }

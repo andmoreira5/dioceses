@@ -69,3 +69,5 @@ module.exports.data = [
         ]
     }
 ]
+
+module.exports.apresentacao = 'A Diocese de Itapipoca foi criada a 13 de março de 1971 pela Bula Qui Summopere, Instalada pelo Sr. Núncio Apostólico Dom Umberto Mozzoni, a 21 de Agosto de 1971. A Partir dessa Bula, assinada pelo Papa Paulo VI, a Diocese de Itapipoca foi desmembrada da Arquidiocese de Fortaleza e da Diocese de Sobral.'

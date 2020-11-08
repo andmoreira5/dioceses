@@ -128,3 +128,6 @@ module.exports.data = [
         ]
     },
 ]
+
+
+module.exports.apresentacao='Este é o estado do Ceará';
