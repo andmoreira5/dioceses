@@ -2,7 +2,7 @@ import React from 'react';
 import './estilo.css'
 
 
-export default function Home(props){
+export default function Historico(props){
 
     const dados = require('../Dados/' + props.id);
 

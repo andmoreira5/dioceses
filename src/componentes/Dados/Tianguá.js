@@ -73,4 +73,4 @@ module.exports.data = [
 
 
 
-module.exports.apresentacao='Economicamente, é uma região primária com atividades de agricultura, pesca e extrativismo. ';
+module.exports.apresentacao='Aqui ficará a história da RCC dessa instância';

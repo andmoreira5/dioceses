@@ -130,4 +130,4 @@ module.exports.data = [
 ]
 
 
-module.exports.apresentacao='Este é o estado do Ceará';
+module.exports.apresentacao='Aqui ficará a história da RCC dessa instância';

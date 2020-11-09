@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from '../Card/Card';
-
+import './estilo.css';
 
 
 export default function Conteudo(props){
@@ -15,7 +15,7 @@ export default function Conteudo(props){
 
     function lerDados(el){
         return <div className="row">
-            <h4>{el.titulo}</h4>
+            <h4 id="titulo-conselho" className="green-text">{el.titulo}</h4>
             {el.content.map(el => ler(el))}
         </div>
     }
