@@ -4,6 +4,7 @@ import Cabecalho from '../Cabecalho/Cabecalho';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Historico from './Historico';
 import Conselho from './Conselho';
+import Colabore from '../Colabore/Colabore';
 
 
 export default function Conteudo(props){
@@ -16,6 +17,7 @@ export default function Conteudo(props){
             <Switch>
                 <Route exact path={props.match.path} component={props => <Conselho {...props} id={identificador} />}  />
                 <Route path={props.match.path+'/historico'} render={props => <Historico {...props} id={identificador} />} />
+                <Route path={'/crato/colabore'} render={props => <Colabore {...props} id={identificador} />} />
             </Switch>
             <BotaoVoltar />
         </section>

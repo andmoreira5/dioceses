@@ -3,6 +3,7 @@ import M, {options} from 'materialize-css';
 import MenuIcon from '@material-ui/icons/Menu';
 import { Link } from 'react-router-dom';
 const retira_acentos = require('../Helper/Helper');
+const dadosMenu = require('../Dados/DadosMenu');
 
 
 export default function Menu(props){
@@ -13,6 +14,23 @@ export default function Menu(props){
       });
 
     const identificador= retira_acentos(props.id.replaceAll('-',''));
+   
+
+    function criarMenu(el){
+        let path='';
+        if(el!=='Conselho'){
+            path=retira_acentos(el).toLowerCase();
+        }
+        return <li>
+            <Link to={'/'+identificador+'/'+path}>{el}</Link>
+        </li>
+    }
+
+    function verificarDioceseCrato(){
+        if(identificador==='Crato'){
+            return dadosMenu.crato.map(el => criarMenu(el));
+        }
+    }
 
 
     return(
@@ -22,15 +40,15 @@ export default function Menu(props){
             <a  class="brand-logo right">RCC CEARÁ</a>
                 <a href="#" className="sidenav-trigger" data-target="slide-out"><MenuIcon fontSize="large" /></a>
                 <ul className="center hide-on-med-and-down">
-                <li><Link to={'/'+identificador}>Conselho</Link></li>
-                <li><Link  to={'/'+identificador +'/historico'}>Histórico</Link></li>
+                    {dadosMenu.map(el => criarMenu(el))}
+                    {verificarDioceseCrato()}
                 </ul>
             </div>
         </nav>
 
         <ul id="slide-out" class="sidenav">
-            <li><Link  to={'/'+identificador}>Conselho</Link></li>
-            <li><Link  to={'/'+identificador +'/historico'}>Histórico</Link></li>
+            {dadosMenu.map(el => criarMenu(el))}
+            {verificarDioceseCrato()}
         </ul>
       
     </div>
