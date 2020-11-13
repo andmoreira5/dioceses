@@ -4,7 +4,7 @@ module.exports.data = [
         content:[
             {
                 nome:'Pe. Fellinto',
-                funcao:'Diretor Espiritual'
+                detalhes:'Diretor Espiritual'
             }
         ]
     },
@@ -13,59 +13,59 @@ module.exports.data = [
         content:[
             {
                 nome:'Rogério Santos',
-                funcao:'Barroquinha'
+                detalhes:'Barroquinha'
             },
             {
                 nome:'Lucas Neves',
-                funcao:'Bitupitá'
+                detalhes:'Bitupitá'
             },
             {
                 nome:'Raimundinha',
-                funcao:'Camocim'
+                detalhes:'Camocim'
             },
             {
                 nome:'Kelyane Ribeiro',
-                funcao:'Carnaubal'
+                detalhes:'Carnaubal'
             },
             {
                 nome:'Ioneida Carvalho',
-                funcao:'Chaval'
+                detalhes:'Chaval'
             },
             {
                 nome:'Ana Maria',
-                funcao:'Croatá'
+                detalhes:'Croatá'
             },
             {
                 nome:'Luziemeire',
-                funcao:'Graça'
+                detalhes:'Graça'
             },
             {
                 nome:'Maria das Graças',
-                funcao:'Granja'
+                detalhes:'Granja'
             },
             {
                 nome:'Paula Jordana',
-                funcao:'Guaraciaba do Norte'
+                detalhes:'Guaraciaba do Norte'
             },
             {
                 nome:'Carlos Evaldo',
-                funcao:'Ibiapina'
+                detalhes:'Ibiapina'
             },
             {
                 nome:'Maria Irlania',
-                funcao:'São Benedito'
+                detalhes:'São Benedito'
             },
             {
                 nome:'José Raimundo',
-                funcao:'Tianguá'
+                detalhes:'Tianguá'
             },
             {
                 nome:'Maria Aparecida',
-                funcao:'Ubajara'
+                detalhes:'Ubajara'
             },
             {
                 nome:'Rosilane Conrado',
-                funcao:'Viçosa do Ceará'
+                detalhes:'Viçosa do Ceará'
             },
         ]
     }

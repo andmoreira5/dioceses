@@ -5,11 +5,11 @@ module.exports.data = [
             
             {
                 nome:'José de Moura',
-                funcao:'Presidente Diocesano'
+                detalhes:'Presidente Diocesano'
             },
             {
                 nome:'Mírian Costta',
-                funcao:'Secretária'
+                detalhes:'Secretária'
             }
         ]
     },
@@ -18,39 +18,39 @@ module.exports.data = [
         content:[
             {
                 nome:'Antônio Denes',
-                funcao:'Barroquinha'
+                detalhes:'Barroquinha'
             },
             {
                 nome:'Brena Rodrigues',
-                funcao:'Irauçuba'
+                detalhes:'Irauçuba'
             },
             {
                 nome:'José Marcelo',
-                funcao:'Itapajé'
+                detalhes:'Itapajé'
             },
             {
                 nome:'Jurandir Santos',
-                funcao:'Itarema'
+                detalhes:'Itarema'
             },
             {
                 nome:'Miriam Mendes',
-                funcao:'Miraima'
+                detalhes:'Miraima'
             },
             {
                 nome:'Gean Alves',
-                funcao:'Paracuru'
+                detalhes:'Paracuru'
             },
             {
                 nome:'Mire Sousa',
-                funcao:'Trairi'
+                detalhes:'Trairi'
             },
             {
                 nome:'Cícera Santos',
-                funcao:'Umirim'
+                detalhes:'Umirim'
             },
             {
                 nome:'Francisca Roseny',
-                funcao:'Uruburetama'
+                detalhes:'Uruburetama'
             }
         ]
     },
@@ -60,11 +60,11 @@ module.exports.data = [
             
             {
                 nome:'Júlia Maria',
-                funcao:'Comunicação Social'
+                detalhes:'Comunicação Social'
             },
             {
                 nome:'Daniel Manuel',
-                funcao:'Jovem'
+                detalhes:'Jovem'
             }
         ]
     }

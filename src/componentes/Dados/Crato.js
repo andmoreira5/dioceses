@@ -4,31 +4,31 @@ module.exports.data = [
         content:[
             {
                 nome:'Luana Gabrielly',
-                funcao:'Presidente Diocesana'
+                detalhes:'Presidente Diocesana'
             },
             {
                 nome:'Cícero Antônio',
-                funcao:'Secretário Geral'
+                detalhes:'Secretário Geral'
             },
             {
                 nome:'Vagner Almeida',
-                funcao:'1º Secretário'
+                detalhes:'1º Secretário'
             },
             {
                 nome:'Acácio Lima',
-                funcao:'2º Secretário'
+                detalhes:'2º Secretário'
             },
             {
                 nome:'Larissa Parente',
-                funcao:'1ª Tesoureira'
+                detalhes:'1ª Tesoureira'
             },
             {
                 nome:'Poliana Vieira',
-                funcao:'2ª Tesoureira'
+                detalhes:'2ª Tesoureira'
             },
             {
                 nome:'Pe. Monteiro',
-                funcao:'Diretor Espiritual '
+                detalhes:'Diretor Espiritual '
             }
         ]
     },
@@ -37,23 +37,23 @@ module.exports.data = [
         content:[
             {
                 nome:'Edson Douglas',
-                funcao:'Forania I'
+                detalhes:'Forania I'
             },
             {
                 nome:'Paulo Vieira',
-                funcao:'Forania II'
+                detalhes:'Forania II'
             },
             {
                 nome:'Railson Dias',
-                funcao:'Forania III'
+                detalhes:'Forania III'
             },
             {
                 nome:'Klésia Sá',
-                funcao:'Forania IV'
+                detalhes:'Forania IV'
             },
             {
                 nome:'A discernir',
-                funcao:'Forania V'
+                detalhes:'Forania V'
             }
         ]
     },
@@ -62,83 +62,83 @@ module.exports.data = [
         content:[
             {
                 nome:'Edson Fernandes',
-                funcao:'Abaiara'
+                detalhes:'Abaiara'
             },
             {
                 nome:'Valéria Macêdo',
-                funcao:'Araripe'
+                detalhes:'Araripe'
             },
             {
                 nome:'Áurio Gomes',
-                funcao:'Assaré'
+                detalhes:'Assaré'
             },
             {
                 nome:'Danúbio Lopes',
-                funcao:'Aurora'
+                detalhes:'Aurora'
             },
             {
                 nome:'Rosimyre Santos',
-                funcao:'Baixio'
+                detalhes:'Baixio'
             },
             {
                 nome:'A discernir',
-                funcao:'Barbalha'
+                detalhes:'Barbalha'
             },
             {
                 nome:'Fátima Martins',
-                funcao:'Barro'
+                detalhes:'Barro'
             },
             {
                 nome:'Cícero José',
-                funcao:'Brejo Santo'
+                detalhes:'Brejo Santo'
             },
             {
                 nome:'Gilde Veloso',
-                funcao:'Campos Sales'
+                detalhes:'Campos Sales'
             },
             {
                 nome:'Edson Douglas',
-                funcao:'Crato'
+                detalhes:'Crato'
             },
             {
                 nome:'Aparecida Pinheiro',
-                funcao:'Farias Brito'
+                detalhes:'Farias Brito'
             },
             {
                 nome:'Adeliane Bringel',
-                funcao:'Jati'
+                detalhes:'Jati'
             },
             {
                 nome:'Suzana Aquino',
-                funcao:'Juazeiro do Norte'
+                detalhes:'Juazeiro do Norte'
             },
             {
                 nome:'Fábio Saraiva',
-                funcao:'Mauriti'
+                detalhes:'Mauriti'
             },
             {
                 nome:'Sonayra Tavares',
-                funcao:'Milagres'
+                detalhes:'Milagres'
             },
             {
                 nome:'Marilene Patrício',
-                funcao:'Missão Velha'
+                detalhes:'Missão Velha'
             },
             {
                 nome:'Adriana Alves',
-                funcao:'Penaforte'
+                detalhes:'Penaforte'
             },
             {
                 nome:'Zenaide da Silva',
-                funcao:'Porteiras'
+                detalhes:'Porteiras'
             },
             {
                 nome:'Jonas Pedro',
-                funcao:'Salitre'
+                detalhes:'Salitre'
             },
             {
                 nome:'Joéliton Araújo',
-                funcao:'Várzea Alegre'
+                detalhes:'Várzea Alegre'
             }
         ]
     },
@@ -147,47 +147,47 @@ module.exports.data = [
         content:[
             {
                 nome:'Anderson Moreira',
-                funcao:'Comunicação Social'
+                detalhes:'Comunicação Social'
             },
             {
                 nome:'Viviane Tomaz',
-                funcao:'Crianças e Adolescentes'
+                detalhes:'Crianças e Adolescentes'
             },
             {
                 nome:'Cícero Lima',
-                funcao:'Cura e Libertação'
+                detalhes:'Cura e Libertação'
             },
             {
                 nome:'Rômulo e Lalômia',
-                funcao:'Família'
+                detalhes:'Família'
             },
             {
                 nome:'Poliana Vieira',
-                funcao:'Formação'
+                detalhes:'Formação'
             },
             {
                 nome:'Edneuma Maria',
-                funcao:'Intercessão'
+                detalhes:'Intercessão'
             },
             {
                 nome:'Marcos Torres',
-                funcao:'Jovem'
+                detalhes:'Jovem'
             },
             {
                 nome:'Aldenor Barbosa',
-                funcao:'Música e Artes'
+                detalhes:'Música e Artes'
             },
             {
                 nome:'Cícero Antônio',
-                funcao:'Pregação'
+                detalhes:'Pregação'
             },
             {
                 nome:'Gislayne Vieira',
-                funcao:'Promoção Humana'
+                detalhes:'Promoção Humana'
             },
             {
                 nome:'Fernanda Araújo',
-                funcao:'Universidades Renovadas'
+                detalhes:'Universidades Renovadas'
             }
         ]
     },
@@ -196,31 +196,31 @@ module.exports.data = [
         content:[
             {
                 nome:'Helmer Belém',
-                funcao:'Construção'
+                detalhes:'Construção'
             },
             {
                 nome:'Ozana Passos',
-                funcao:'Construção'
+                detalhes:'Construção'
             },
             {
                 nome:'Dário Vieira',
-                funcao:'Eventos'
+                detalhes:'Eventos'
             },
             {
                 nome:'A discernir',
-                funcao:'Financeira'
+                detalhes:'Financeira'
             },
             {
                 nome:'Mana Janoca',
-                funcao:'Liturgia'
+                detalhes:'Liturgia'
             },
             {
                 nome:'Eduardo Sá',
-                funcao:'Livraria'
+                detalhes:'Livraria'
             },
             {
                 nome:'Vileci Santana',
-                funcao:'Missionária'
+                detalhes:'Missionária'
             }
         ]
     }

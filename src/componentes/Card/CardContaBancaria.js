@@ -11,7 +11,7 @@ export default function CardContaBancaria(props){
     return(
         <div id="card-conta-bancaria">
         <div class="col s12 m6 l6">
-          <div class="card blue-grey darken-3">
+          <div class="card blue-grey darken-3 ">
             <div class="card-content white-text">
               <span class="card-title">{props.titulo}</span>
               <ul class="collection">

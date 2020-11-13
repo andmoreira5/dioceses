@@ -9,7 +9,7 @@ export default function Conteudo(props){
 
     function ler(el){
         return <div>
-            <Card nome={el.nome} funcao={el.funcao} id={props.id} />
+            <Card nome={el.nome} detalhes={el.detalhes} id={props.id} />
         </div>
     }
 

@@ -4,19 +4,19 @@ module.exports.data = [
         content:[
             {
                 nome:'Romário Silva',
-                funcao:'Presidente Diocesano'
+                detalhes:'Presidente Diocesano'
             },
             {
                 nome:'Rejane Ribeiro',
-                funcao:'Secretária'
+                detalhes:'Secretária'
             },
             {
                 nome:'Wandisley Freitas',
-                funcao:'Tesoureiro'
+                detalhes:'Tesoureiro'
             },
             {
                 nome:'Pe. Gledson',
-                funcao:'Diretor Espiritual'
+                detalhes:'Diretor Espiritual'
             },
         ]
     },
@@ -25,63 +25,63 @@ module.exports.data = [
         content:[
             {
                 nome:'Teobaldo da Silva',
-                funcao:'Aracati'
+                detalhes:'Aracati'
             },
             {
                 nome:'Lucelisse Paulo',
-                funcao:'Ereré'
+                detalhes:'Ereré'
             },
             {
                 nome:'Wandisley Freitas',
-                funcao:'Flores'
+                detalhes:'Flores'
             },
             {
                 nome:'John Lennon',
-                funcao:'Fortim'
+                detalhes:'Fortim'
             },
             {
                 nome:'José Tayrisson',
-                funcao:'Ibicuitinga'
+                detalhes:'Ibicuitinga'
             },
             {
                 nome:'Aline Paula',
-                funcao:'Itaiçaba'
+                detalhes:'Itaiçaba'
             },
             {
                 nome:'Esliane Peixoto',
-                funcao:'Jaguaribe'
+                detalhes:'Jaguaribe'
             },
             {
                 nome:'Raimunda Alda',
-                funcao:'Jaguaruana'
+                detalhes:'Jaguaruana'
             },
             {
                 nome:'Diana Cartier',
-                funcao:'Limoeiro do Norte'
+                detalhes:'Limoeiro do Norte'
             },
             {
                 nome:'Francisca Maria',
-                funcao:'Morada Nova'
+                detalhes:'Morada Nova'
             },
             {
                 nome:'Carla Pascoal',
-                funcao:'Palhano'
+                detalhes:'Palhano'
             },
             {
                 nome:'Daniel Fonseca',
-                funcao:'Quixeré'
+                detalhes:'Quixeré'
             },
             {
                 nome:'Maria Haida',
-                funcao:'Roldão'
+                detalhes:'Roldão'
             },
             {
                 nome:'Maria do Socorro',
-                funcao:'Russas'
+                detalhes:'Russas'
             },
             {
                 nome:'Edna Avelino',
-                funcao:'Tabuleiro'
+                detalhes:'Tabuleiro'
             },
         ]
     },
@@ -90,39 +90,39 @@ module.exports.data = [
         content:[
             {
                 nome:'Brito Reis',
-                funcao:'Comunicação Social'
+                detalhes:'Comunicação Social'
             },
             {
                 nome:'Antônia Vânia',
-                funcao:'Crianças e Adolescentes'
+                detalhes:'Crianças e Adolescentes'
             },
             {
                 nome:'André Luis',
-                funcao:'Fé e Política'
+                detalhes:'Fé e Política'
             },
             {
                 nome:'Edilene Ribeiro',
-                funcao:'Formação'
+                detalhes:'Formação'
             },
             {
                 nome:'Maria Lenira',
-                funcao:'Intercessão'
+                detalhes:'Intercessão'
             },
             {
                 nome:'Ana Vitória',
-                funcao:'Jovem'
+                detalhes:'Jovem'
             },
             {
                 nome:'Maria Danielle',
-                funcao:'Música e Artes'
+                detalhes:'Música e Artes'
             },
             {
                 nome:'Eclézia Maria',
-                funcao:'Pregação'
+                detalhes:'Pregação'
             },
             {
                 nome:'Bárbara Bessa',
-                funcao:'Promoção Humana'
+                detalhes:'Promoção Humana'
             }
         ]
     }
