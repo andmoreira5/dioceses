@@ -6,7 +6,7 @@ export default function Card(props){
 
     return(
             <div className="col s6 m4 l2">
-                <div className="card">
+                <div className="card ">
                     <div className="card-image">
                         <img src={require('../../Imagens/'+props.id+'/'+retira_acentos(props.nome)+'.jpg')} />
                     </div>

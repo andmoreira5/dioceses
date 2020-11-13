@@ -7,12 +7,12 @@ module.exports.data = [
                 detalhes:'Formação sobre como melhor acolher nossos irmãos'
             },
             {
-                nome:'Aprofundamento de Dons',
-                detalhes:'Material de apoio para essa importante etapa formativa'
-            },
-            {
                 nome:'Eu te constitui sentinela na casa de Israel',
                 detalhes:'Livro escrito pelo atual presidente nacional da RCCBrasil'
+            },
+            {
+                nome:'Aprofundamento de Dons',
+                detalhes:'Material de apoio para essa importante etapa formativa'
             }
         ]
     },
@@ -32,35 +32,26 @@ module.exports.data = [
     {
         titulo:'Ministério de Pregação',
         content:[
-            {
-                nome:'Apoio pedagógico para formação de pregadores',
-                detalhes:'Preparação para membros do Ministério de Pregação'
-            },
+            
             {
                 nome:'Formação para o Ministério de Pregação 01',
                 detalhes:'Material formativo para pregadores'
             },
             {
+                nome:'Apoio pedagógico para formação de pregadores',
+                detalhes:'Preparação para membros do Ministério de Pregação'
+            },
+            {
                 nome:'Formação para o Ministério de Pregação 02',
                 detalhes:'Material formativo para pregadores'
-            },
+            }
         ]
     },
     {
         titulo:'Ministério de Intercessão',
         content:[
-            {
-                nome:'Intercessão Profética 03',
-                detalhes:'Material formativo para intercessores'
-            },
-            {
-                nome:'RCC responde 14 - A intercessão em eventos de evangelização da RCC',
-                detalhes:'Tira-dúvidas sobre o Ministério de Intercessão'
-            },
-            {
-                nome:'RCC responde 02 - Ministério de Intercessão',
-                detalhes:'Tira-dúvidas sobre o Ministério de Intercessão'
-            },
+                     
+           
             {
                 nome:'Reconhecendo-se um intercessor',
                 detalhes:''
@@ -68,7 +59,19 @@ module.exports.data = [
             {
                 nome:'Rezar erguendo as mãos santas',
                 detalhes:''
-            }
+            },
+            {
+                nome:'Intercessão Profética 03',
+                detalhes:'Material formativo para intercessores'
+            },
+            {
+                nome:'RCC responde 02 - Ministério de Intercessão',
+                detalhes:'Tira-dúvidas sobre o Ministério de Intercessão'
+            },
+            {
+                nome:'RCC responde 14 - A intercessão em eventos de evangelização da RCC',
+                detalhes:'Tira-dúvidas sobre o Ministério de Intercessão'
+            },
         ]
     },
     {
