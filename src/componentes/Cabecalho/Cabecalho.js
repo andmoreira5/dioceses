@@ -1,4 +1,5 @@
 import React from 'react';
+import './estilo.css';
 
 export default function Cabecalho(props){
 
@@ -17,8 +18,9 @@ export default function Cabecalho(props){
     }
 
     return(
-        <header className="header section white">
-            <h2 className="center">Bem vindo(a) {gerarTitulo()}</h2>
+        <header className="header section white center ">
+            <img id="logo_central" src={require('../../Imagens/'+props.id+'/logo_central.png')} className="responsive-img center "/>
+            <h3 className="center">Bem vindo(a) {gerarTitulo()}</h3>
         </header>
     );
 }

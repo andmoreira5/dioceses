@@ -15,7 +15,7 @@ export default function Conteudo(props){
 
     function lerDados(el){
         return <div className="row">
-            <h4 id="titulo-conselho" className="green-text">{el.titulo}</h4>
+            <h5 id="titulo-conselho" className="green-text">{el.titulo}</h5>
             {el.content.map(el => ler(el))}
         </div>
     }
@@ -23,6 +23,7 @@ export default function Conteudo(props){
 
     return(
         <section className="teal lighten-5 ">
+            <h4 className="center">{props.subtitulo}</h4>
             {dados.data.map(el => lerDados(el))}
         </section>
     );
