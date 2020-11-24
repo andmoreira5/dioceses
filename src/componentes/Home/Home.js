@@ -13,9 +13,12 @@ export default function Home(){
     return(
         <div id="home" class="center">
                 <h1>{imagem}</h1>
-                <img  className="responsive-img" id="mapa" usemap="#image-map" src={require('../../Imagens/Home/ceara.png')} />
-                <img  className="responsive-img" id="mapa" usemap="#image-map" src={require('../../Imagens/Home/crato.png')} />
-                <Link id="link" class=" waves-effect waves-light btn" to='/estadual'>IR PARA CONSELHO ESTADUAL </Link>
+                <div id="mapa">
+                    <img   className="responsive-img"  src={require('../../Imagens/Home/ceara.png')} />
+                    <img id="quixada" className="responsive-img"  src={require('../../Imagens/Home/quixada.png')} />
+                    <img id="crateus" className="responsive-img"  src={require('../../Imagens/Home/crateus.png')} />
+                </div>
+                 <Link id="link" class=" waves-effect waves-light btn" to='/estadual'>IR PARA CONSELHO ESTADUAL </Link>
                 <Link id="link"  class="waves-effect waves-light btn" to='/crato'>IR PARA DIOCESE DE CRATO </Link>
                 <Link id="link"  class="waves-effect waves-light btn" to='/itapipoca'>IR PARA DIOCESE DE ITAPIPOCA </Link>
                 <Link id="link" class="waves-effect waves-light btn" to='/limoeirodonorte'>IR PARA A DIOCESE DE LIMOEIRO DO NORTE </Link>

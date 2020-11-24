@@ -9,6 +9,14 @@
     margin: 20px;
 }
 
-#mapa{
-    width: 400px;
+img{
+    position: absolute;
+    top:0;
+}
+
+img[id*='crateus']:hover{
+    display:none;
+}
+img[id*='quixada']:hover{
+    display:none;
 }
