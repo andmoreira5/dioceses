@@ -5,8 +5,5 @@
     height: 100vh;
 }
 
-#link{
-    margin: 20px;
-}
 
-#link:hover path{ fill:#003399 !important }
+.link:hover path{ fill:#003399 !important }
