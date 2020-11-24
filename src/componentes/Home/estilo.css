@@ -9,14 +9,4 @@
     margin: 20px;
 }
 
-img{
-    position: absolute;
-    top:0;
-}
-
-img[id*='crateus']:hover{
-    display:none;
-}
-img[id*='quixada']:hover{
-    display:none;
-}
+#link:hover path{ fill:#003399 !important }
