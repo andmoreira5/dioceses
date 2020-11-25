@@ -1,9 +1,40 @@
-#home{
+/*#home{
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100vh;
+}*/
+
+svg{
+    height: 100vh;
+}
+@media screen and (max-width: 900px) {
+    svg{
+        height: 90vh;
+    }
 }
 
+.link:hover path{ 
+    fill:#ffdd01 !important;
 
-.link:hover path{ fill:#003399 !important }
+}
+
+.link path{
+    max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.botao{
+   padding: 10px;
+   margin-bottom: 20px;
+   border: 2px #ffdd01 solid;
+}
+
+#container_botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
