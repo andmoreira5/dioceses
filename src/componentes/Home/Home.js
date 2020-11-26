@@ -44,12 +44,18 @@ export default function Home(){
 
     return(
         <div class="center ">
+             <NavBar class="hide-on-large-only" dados={dados} />
                 <h4>Bem vindo(a)!</h4>
                 <h5>Navegue pelo menu ou mapa:</h5>
-                <NavBar dados={dados} />
-                    <svg  preserveAspectRatio="xMidYMid meet" viewBox="0 0 2000 3000">
+                <div class="row">
+                    <svg class=" col l6 m12 center"  preserveAspectRatio="xMidYMid meet" viewBox="0 0 2000 3000">
                         {dados.map(a => lerDados(a))}     
                     </svg>
+                    <div class="hide-on-med-and-down col l6" id="container-botoes">
+                        {dados.map(a => gerarBotoes(a))}     
+                    </div>
+                    
+                </div>
         </div>
     );
 }

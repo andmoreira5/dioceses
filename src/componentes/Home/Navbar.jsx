@@ -20,6 +20,10 @@ const Nav = styled.nav`
     background-color:#fff;
     width:100vw;
   }
+  @media (min-width: 901px) {
+    height:0;
+    width:0;
+  }
 `
 
 const Navbar = (props) => {

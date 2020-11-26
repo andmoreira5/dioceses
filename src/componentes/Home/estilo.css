@@ -5,13 +5,23 @@
     height: 100vh;
 }*/
 
-svg{
-    height: 100vh;
-}
 @media screen and (max-width: 900px) {
     svg{
         height: 90vh;
     }
+}
+
+@media screen and (min-width: 901px) {
+    svg{
+        height: 100vh;
+    }
+
+}
+
+#container-botoes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .link:hover path{ 
@@ -27,14 +37,8 @@ svg{
 }
 
 .botao{
-   padding: 10px;
-   margin-bottom: 20px;
    border: 2px #ffdd01 solid;
-}
-
-#container_botoes{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
+   margin: 30px;
+   padding: 10px;
+   width: 150px;
 }
