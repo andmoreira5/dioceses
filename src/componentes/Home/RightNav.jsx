@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 const retira_acentos = require('../Helper/Helper');
-const dadosMenu = require('../Dados/DadosMenu');
+
 
 const Ul = styled.ul`
   list-style: none;
@@ -38,6 +38,7 @@ const Ul = styled.ul`
 
 const RightNav = ({open, dados}) => {
 
+  const dadosMenu = require('../Dados/DadosMenu');
    
 
     function criarMenu(el){

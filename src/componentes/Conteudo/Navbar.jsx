@@ -23,7 +23,7 @@ const Navbar = (props) => {
   return (
     <Nav className="green">
         <h5 >RCC CEARÁ</h5>
-      <Burger id={props.id} />
+      <Burger id={props.id} arquivoDados={props.arquivoDados} />
     </Nav>
   )
 }

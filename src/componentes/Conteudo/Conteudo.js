@@ -14,7 +14,7 @@ export default function Conteudo(props){
 
     return(
         <section className="teal lighten-5">
-            <NavBar id={props.id} />
+            <NavBar id={props.id} arquivoDados={props.arquivoDados}/>
             <Cabecalho id={props.id} />
            
             <Switch>

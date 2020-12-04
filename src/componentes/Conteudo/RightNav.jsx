@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 const retira_acentos = require('../Helper/Helper');
-const dadosMenu = require('../Dados/DadosMenu');
+
 
 const Ul = styled.ul`
   list-style: none;
@@ -36,7 +36,11 @@ const Ul = styled.ul`
   }
 `;
 
-const RightNav = ({ open, id }) => {
+const RightNav = ({ open, id, arquivoDados }) => {
+
+  console.log(arquivoDados);
+  const dadosMenu = require('../Dados/'+arquivoDados);
+  
 
   const identificador= retira_acentos(id.replaceAll('-',''));
    

@@ -50,7 +50,7 @@ const Burger = (props) => {
         <div />
         <div />
       </StyledBurger>
-      <RightNav open={open} id={props.id}/>
+      <RightNav open={open} id={props.id} arquivoDados = {props.arquivoDados} />
     </>
   )
 }
