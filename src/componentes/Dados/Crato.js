@@ -52,7 +52,7 @@ module.exports.data = [
                 detalhes:'Forania IV'
             },
             {
-                nome:'A discernir',
+                nome:'José Teodoro',
                 detalhes:'Forania V'
             }
         ]

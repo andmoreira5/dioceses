@@ -58,11 +58,13 @@ svg{
 .botao:hover{
     background-color: #007e3d;
     color: white;
-   
 }
 
-#top{
-    background-color: blueviolet;
-    width: 100%;
-
+.tooltip{
+    background-color:#FFF;
+    position:absolute;
+    display: none;
+    padding: 10px;
+    text-align: center;
+    border:  2px #000 solid;
 }

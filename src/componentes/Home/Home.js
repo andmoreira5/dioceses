@@ -11,16 +11,31 @@ const dados = require('../Dados/Mapa');
 export default function Home(){
 
     const [value, setValue] = useState('Bem vindo!');
+    
+    $(window).on("load", function(){
+       var $tooltip = $('.tooltip');
+        $('.A').hover(
+            function(event){ // Mouse entrou no elemento
+                let elementoHover = $(event.target);
+                setar($(elementoHover).attr("id"));
+                
+                var position = elementoHover.position();
+                $tooltip.css({"top": position.top + "px", "left": position.left + "px"}).show();
 
-    $('*').hover(
-        function(event  ){ // Mouse entrou no elemento
-            let elementoHover = $(event.target);
-            setar($(elementoHover).attr("id"));
-        },
-        function(event){ // Mouse saiu do elemento
-           retornar();
-        }
-    );
+                /* pegar a posiçao do mouse
+                var x = event.clientX;
+                var y = event.clientY;
+                var coor = "X coords: " + x + ", Y coords: " + y;
+                */
+                
+
+            }, 
+            function(event){ // Mouse entrou no elemento
+                retornar();
+                $tooltip.hide();
+            }
+        );
+    });
 
 
     function setar(as){
@@ -35,7 +50,7 @@ export default function Home(){
     
     function lerDados(dado){
         return <Link class="link" to={dado.endereco}>
-             <path id={dado.id} d={dado.path} fill="#007e3d"/>
+             <path className="A" id={dado.id} d={dado.path} fill="#007e3d"/>
         </Link>
     }
 
@@ -46,17 +61,17 @@ export default function Home(){
 
     return(
         <div >
-            <div class="center ">
+            <div class="tooltip">{value}</div>
+            <div class="">
              <NavBar class="hide-on-large-only" dados={dados} />
                 
                 <div class="row">
-                    <div class="col l6">
-                <h4>Bem vindo(a)!</h4>
-                <h5>Navegue pelo menu ou mapa:</h5>
+                    <div class="col l6 center">
+                        <h4>Bem vindo(a)!</h4>
+                        <h5>Navegue pelo menu ou mapa:</h5>
                 
                     <div class="hide-on-med-and-down " id="container-botoes">
                         {dados.map(a => gerarBotoes(a))}     
-                        
                     </div>
                     <a href="http://rccceara.org" class="botao " >
                         <ArrowBack />
@@ -72,4 +87,7 @@ export default function Home(){
                 
         </div>
     );
+
+    
+
 }
