@@ -77,15 +77,15 @@ module.exports.data = [
                 detalhes:'Aurora'
             },
             {
-                nome:'Rosimyre Santos',
+                nome:'A discernir',
                 detalhes:'Baixio'
             },
             {
-                nome:'A discernir',
+                nome:'Poliana Vieira',
                 detalhes:'Barbalha'
             },
             {
-                nome:'Fátima Martins',
+                nome:'Cícera Teles',
                 detalhes:'Barro'
             },
             {
@@ -113,7 +113,7 @@ module.exports.data = [
                 detalhes:'Juazeiro do Norte'
             },
             {
-                nome:'Fábio Saraiva',
+                nome:'Welington Nunes',
                 detalhes:'Mauriti'
             },
             {
@@ -121,7 +121,7 @@ module.exports.data = [
                 detalhes:'Milagres'
             },
             {
-                nome:'Marilene Patrício',
+                nome:'Daniele Oliveira',
                 detalhes:'Missão Velha'
             },
             {
@@ -133,7 +133,7 @@ module.exports.data = [
                 detalhes:'Porteiras'
             },
             {
-                nome:'Jonas Pedro',
+                nome:'Nailson Alselmo',
                 detalhes:'Salitre'
             },
             {
@@ -162,7 +162,7 @@ module.exports.data = [
                 detalhes:'Família'
             },
             {
-                nome:'Poliana Vieira',
+                nome:'Damiana Lima',
                 detalhes:'Formação'
             },
             {
