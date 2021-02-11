@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 import './estilo.css';
 import $ from 'jquery';
 import NavBar from './Navbar';
-import ArrowBackIcon from '@material-ui/icons/ArrowBack';
-import { ArrowBack } from '@material-ui/icons';
+import VoltarRccCe from '../Botoes/VoltarRccCe';
 const dados = require('../Dados/Mapa');
 
 
@@ -73,9 +72,7 @@ export default function Home(){
                     <div class="hide-on-med-and-down " id="container-botoes">
                         {dados.map(a => gerarBotoes(a))}     
                     </div>
-                    <a href="http://rccceara.org" class="botao " >
-                        <ArrowBack />
-                        Retornar a rccceara</a>
+                    <VoltarRccCe />
                 </div>
                     <svg class=" col l6 m12 center"  preserveAspectRatio="xMidYMid meet" viewBox="0 0 2000 2800">
                         {dados.map(a => lerDados(a))}     

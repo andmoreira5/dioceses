@@ -1,5 +1,5 @@
 import React from 'react';
-import BotaoVoltar from '../BotaoVoltar/BotaoVoltar';
+import BotaoVoltar from '../Botoes/BotaoVoltar';
 import Cabecalho from '../Cabecalho/Cabecalho';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Historico from './Historico';
