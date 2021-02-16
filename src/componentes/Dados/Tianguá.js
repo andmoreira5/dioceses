@@ -28,7 +28,7 @@ module.exports.data = [
                 detalhes:'Carnaubal'
             },
             {
-                nome:'Ioneida Carvalho',
+                nome:'Rafael Oliveira',
                 detalhes:'Chaval'
             },
             {
@@ -52,11 +52,11 @@ module.exports.data = [
                 detalhes:'Ibiapina'
             },
             {
-                nome:'Maria Irlania',
+                nome:'Marklen Sousa',
                 detalhes:'São Benedito'
             },
             {
-                nome:'José Raimundo',
+                nome:'Jardel Araújo',
                 detalhes:'Tianguá'
             },
             {

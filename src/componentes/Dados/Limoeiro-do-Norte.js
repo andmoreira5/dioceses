@@ -28,7 +28,7 @@ module.exports.data = [
                 detalhes:'Aracati'
             },
             {
-                nome:'Lucelisse Paulo',
+                nome:'Erineide Pereira',
                 detalhes:'Ereré'
             },
             {
@@ -64,7 +64,7 @@ module.exports.data = [
                 detalhes:'Morada Nova'
             },
             {
-                nome:'Carla Pascoal',
+                nome:'Francisco Lima',
                 detalhes:'Palhano'
             },
             {

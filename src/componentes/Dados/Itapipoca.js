@@ -4,7 +4,7 @@ module.exports.data = [
         content:[
             
             {
-                nome:'José de Moura',
+                nome:'Daniel Manuel',
                 detalhes:'Presidente Diocesano'
             },
             {
@@ -63,8 +63,24 @@ module.exports.data = [
                 detalhes:'Comunicação Social'
             },
             {
-                nome:'Daniel Manuel',
+                nome:'Ana Mouse',
+                detalhes:'Crianças e Adolescentes'
+            },
+            {
+                nome:'Moura Queiroz',
+                detalhes:'Formação'
+            },
+            {
+                nome:'Hellyton Moreira',
                 detalhes:'Jovem'
+            },
+            {
+                nome:'Gleiciano Araújo',
+                detalhes:'Música e Artes'
+            },
+            {
+                nome:'Marlene Elvira',
+                detalhes:'Promoção Humana'
             }
         ]
     }
