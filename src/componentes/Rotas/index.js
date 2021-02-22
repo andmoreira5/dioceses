@@ -22,7 +22,7 @@ export default function Rotas  (){
                 <Route path='/estadual' render={props => <Conteudo {...props} id="Estadual" arquivoDados="DadosMenu" />} />
                 <Route path='/itapipoca' render={props => <Conteudo {...props} id="Itapipoca" arquivoDados="DadosMenu" />} />
                 <Route path='/iguatu' render={props => <Erro {...props} animacao={animacaoNaoHaDados} titulo={tituloNaoHaDados} />} />
-                <Route path='/fortaleza' render={props => <Erro {...props} animacao={animacaoNaoHaDados} titulo={tituloNaoHaDados} />} />
+                <Route path='/fortaleza' render={props => <Conteudo {...props} id="Fortaleza" arquivoDados="DadosMenu" />} />
                 <Route path='/sobral' render={props => <Erro {...props} animacao={animacaoNaoHaDados} titulo={tituloNaoHaDados} />} />
                 <Route path='/quixada' render={props => <Erro {...props} animacao={animacaoNaoHaDados} titulo={tituloNaoHaDados} />} />
                 <Route path='/crateus' render={props => <Erro {...props} animacao={animacaoNaoHaDados} titulo={tituloNaoHaDados} />} />

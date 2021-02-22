@@ -73,14 +73,13 @@ export default function Home(){
                         {dados.map(a => gerarBotoes(a))}     
                     </div>
                     <VoltarRccCe />
-                </div>
+                    </div>
                     <svg class=" col l6 m12 center"  preserveAspectRatio="xMidYMid meet" viewBox="0 0 2000 2800">
                         {dados.map(a => lerDados(a))}     
                     </svg>
                    
-                    
                 </div>
-                </div>
+            </div>
                 
         </div>
     );
