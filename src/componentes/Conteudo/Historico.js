@@ -1,5 +1,5 @@
 import React from 'react';
-import './estilo.css'
+import './estiloConteudo.css'
 
 
 export default function Historico(props){

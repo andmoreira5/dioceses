@@ -13,10 +13,10 @@ export default function Conteudo(props){
     const identificador = props.id;
 
     return(
-        <section className="teal lighten-5">
+        <section>
             <NavBar id={props.id} arquivoDados={props.arquivoDados}/>
             <Cabecalho id={props.id} />
-           
+            
             <Switch>
                 <Route exact path={props.match.path} component={props => <Conselho {...props} id={identificador} subtitulo="Conselho Diocesano"/>}  />
                 <Route path={props.match.path+'/historico'} render={props => <Historico {...props} id={identificador} />} />
@@ -29,4 +29,4 @@ export default function Conteudo(props){
 }
 
 //Para o design
-//<svg id="linha" viewBox="0 0 24 24" focusable="false" width="24" height="24" role="presentation"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M2.25 18.003h19.5M2.25 12.003h19.5M2.25 6.003h19.5"></path></g></svg>
+//

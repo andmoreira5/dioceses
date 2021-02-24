@@ -6,21 +6,20 @@
 }*/
 
 
-svg{
+#mapa{
     margin-top:10px;
 }
 
 @media screen and (max-width: 900px) {
-    svg{
+    #mapa{
         height: 90vh;
     }
 }
 
 @media screen and (min-width: 901px) {
-    svg{
+    #mapa{
         height: 100vh;
     }
-   
 
 }
 

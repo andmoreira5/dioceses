@@ -74,7 +74,7 @@ export default function Home(){
                     </div>
                     <VoltarRccCe />
                     </div>
-                    <svg class=" col l6 m12 center"  preserveAspectRatio="xMidYMid meet" viewBox="0 0 2000 2800">
+                    <svg class=" col l6 m12 center" id="mapa" preserveAspectRatio="xMidYMid meet" viewBox="0 0 2000 2800">
                         {dados.map(a => lerDados(a))}     
                     </svg>
                    

@@ -18,7 +18,7 @@ export default function Cabecalho(props){
     }
 
     return(
-        <header className="header section white center ">
+        <header className="header  white center ">
             <img id="logo_central" src={require('../../Imagens/'+props.id+'/logo_central.png')} className="responsive-img center "/>
             <h3 className="center">Bem vindo(a) {gerarTitulo()}</h3>
         </header>

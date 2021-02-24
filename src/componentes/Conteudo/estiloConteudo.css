@@ -24,3 +24,15 @@
   h1{
     font-size:1px;
   }
+
+
+  /*
+  #sectionConteudo{
+    background-color: #007e3d;
+  }
+  */
+
+  #gruposConselho, h4{
+    margin: 0;
+    padding: 0;
+  }

@@ -1,0 +1,9 @@
+#linhaInvertida{
+    transform: translateY(-4px) rotate(180deg);
+    
+}
+
+.linha{
+    margin-bottom: 0  !important;
+    margin-top: 0 !important;
+}
