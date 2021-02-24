@@ -14,11 +14,19 @@ module.exports.data = [
                 nome:'Pedro Juarez',
                 detalhes:'Tesoureiro'
             }, 
+            {
+                nome:'Pe. Josieldo Nascimento',
+                detalhes:'Assessor Eclesiastico'
+            }, 
         ]
     },
     {
         titulo:'Coordenadores de Regiões Episcopais',
         content:[
+            {
+                nome:'Ana de Fátima',
+                detalhes:'Bom Jesus dos Aflitos'
+            },
             {
                 nome:'Maria Aldineide',
                 detalhes:'São Pedro e São Paulo'
@@ -44,6 +52,10 @@ module.exports.data = [
     {
         titulo:'Coordenadores de Ministérios',
         content:[
+            {
+                nome:'Cledson Braga',
+                detalhes:'Comunicação Social'
+            },
             {
                 nome:'D\'angela Kyll',
                 detalhes:'Crianças e Adolescentes'
@@ -71,6 +83,18 @@ module.exports.data = [
             {
                 nome:'Pamela Marques',
                 detalhes:'Jovem'
+            },
+            {
+                nome:'Alessandra Meneses',
+                detalhes:'Música e Artes'
+            },
+            {
+                nome:'Renan Oliveira',
+                detalhes:'Pregação'
+            },
+            {
+                nome:'Lucianne Lima',
+                detalhes:'Universidades Renovadas'
             },
         ]
     },
