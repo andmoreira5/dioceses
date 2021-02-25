@@ -32,7 +32,11 @@
   }
   */
 
-  #gruposConselho, h4{
+  #gruposConselho{
     margin: 0;
     padding: 0;
+  }
+
+  h4{
+    padding-bottom: 20px;
   }

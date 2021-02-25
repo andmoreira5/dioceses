@@ -25,7 +25,7 @@ export default function Rotas  (){
                 <Route path='/fortaleza' render={props => <Conteudo {...props} id="Fortaleza" arquivoDados="DadosMenu" />} />
                 <Route path='/sobral' render={props => <Erro {...props} animacao={animacaoNaoHaDados} titulo={tituloNaoHaDados} />} />
                 <Route path='/quixada' render={props => <Erro {...props} animacao={animacaoNaoHaDados} titulo={tituloNaoHaDados} />} />
-                <Route path='/crateus' render={props => <Erro {...props} animacao={animacaoNaoHaDados} titulo={tituloNaoHaDados} />} />
+                <Route path='/crateus' render={props =><Conteudo {...props} id="Crateus" arquivoDados="DadosMenu" />}  />
                 <Route path='*' render={props => <Erro {...props} animacao="404" titulo={tituloPaginaNaoEncontrada} />} />
             </Switch>
         </BrowserRouter>
