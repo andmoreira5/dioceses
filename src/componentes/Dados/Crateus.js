@@ -20,6 +20,10 @@ module.exports.data = [
                 detalhes:'Adoradores de Cristo (Novo Oriente)'
             },
             {
+                nome:'Maria Bernardes',
+                detalhes:'Fonte de Água Viva (Paramburu)'
+            },
+            {
                 nome:'José Victor',
                 detalhes:'Louvor e Adoração (Tauá)'
             },
@@ -30,6 +34,10 @@ module.exports.data = [
             {
                 nome:'Aulixiadora Gomes',
                 detalhes:'O Amor Vencerá (Crateús)'
+            },
+            {
+                nome:'Marcos Evangelista',
+                detalhes:'Rainha da Paz (Crateús)'
             },
             {
                 nome:'Matheus Farias',

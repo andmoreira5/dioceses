@@ -10,7 +10,11 @@ module.exports.data = [
             {
                 nome:'Mírian Costta',
                 detalhes:'Secretária'
-            }
+            },
+            {
+                nome:'Francisca Roseny',
+                detalhes:'1ª Secretária'
+            },
         ]
     },
     {
@@ -77,6 +81,10 @@ module.exports.data = [
             {
                 nome:'Gleiciano Araújo',
                 detalhes:'Música e Artes'
+            },
+            {
+                nome:'Ticiane Lúcia',
+                detalhes:'Pregação'
             },
             {
                 nome:'Marlene Elvira',
